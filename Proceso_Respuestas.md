@@ -1,4 +1,4 @@
-## Produce un conflicto de fusión (merge) en algún repositorio de tus actividades realizadas. Establece los pasos y comandos que usas para resolver un conflicto de fusión en Git. Si intentas git push y falla con un mensaje como : Non-fast-forward (error): failed to push some refs esto significa que algún archivo contiene un conflicto de fusión entre la versión de tu repositorio y la versión del repositorio origen. Para este ejercicio debes presentar el conflicto dado, los pasos y comandos para resolver el problema y las solución.Primero, realiza un git pull para obtener los cambios más recientes del repositorio remoto
+## Parte 1 
 
 Usamremos el repositorio de PraticaCalificada5
 
@@ -27,4 +27,49 @@ Asi como tambien un git merge main si estamos ubicados en la rama miguelvega
 
 
 ![Captura de pantalla de 2023-12-13 08-30-24](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/3267d236-85c9-4eea-80ce-45bc2583b1a2)
+
+
+## Parte 2
+
+En  este ejercicio usarás TDD para desarrollar la funcionalidad RottenPotatoes que permite al usuario buscar una película en TMDb. Específicamente, usarás TDD para crear un controlador, que recibe la solicitud del usuario, y un modelo que en realidad llama al servicio TMDb remoto para obtener información sobre la película especificada.
+Utiliza la carpeta comprimida dado en la evaluación. 
+Asegúrate de ejecutar bundle install --without para configurar todas las dependencias. Aquí trabajarás con TMDb API y Guard para automatizar el flujo de trabajo (puedes utilizar algunas otras si crees necesario) . También utilizarás Faraday, unalibreríacliente HTTP, para realizar llamadas API. Edita el Gemfile para incluir las siguientes gemas:
+
+```
+gem 'faraday'  
+group :test do
+  gem 'rails-controller-testing'
+  gem 'guard-rspec'                 
+end
+
+```
+![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
+
+![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
+
+Ejecutamos bundle install nuevamene
+
+ ![Captura de pantalla de 2023-12-13 08-53-05](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/c8814240-3d0f-4082-9826-d7075bcf1f19)
+
+Luego ejecuta Rails generate rspec:install para asegurarte de que los archivos que RSpec que necesitas estén en su lugar.
+
+![Captura de pantalla de 2023-12-13 08-57-56](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/eaa751fd-997a-4e1f-8eaf-27f7f4273520)
+
+Edita el archivo spec/rails_helper.rb para incluir require 'byebug' en la parte superior, de modo que puedas acceder al depurador según sea necesario para que las pruebas funcionen.
+
+![Captura de pantalla de 2023-12-13 08-59-38](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/bfa74963-e04b-44fd-8dfd-a7fc69689068)
+
+Ejecuta el paquete exec guard init rspec para configurar los archivos necesarios para Guard, lo que dará como resultado la creación de un nuevo Guardfile. Agrega ese archivo a tu repositorio.
+
+![Captura de pantalla de 2023-12-13 09-00-25](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/2df63d50-84a8-46d0-8714-dab851547d4b)
+
+Configura la base de datos con el comando habitual 
+
+![Captura de pantalla de 2023-12-13 09-08-45](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/18ed5c79-6b3b-4a70-910d-d396b7d448ef)
+
+Cargamos las semillas en la base de datos con el comando y ejecutamos el servidor para mostrar que todo este bien.
+
+
+![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
+
 
