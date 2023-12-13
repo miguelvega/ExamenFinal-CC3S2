@@ -77,3 +77,20 @@ Agregamos las lineas de codigo faltantes en el archivo.Primero los parámetros d
 
 Cremos la funcion search_tmdb que sera nuestra acción del controlador que manejará el envío del formulario dada en la vista anterior..
 ![Captura de pantalla de 2023-12-13 09-42-15](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/c81a0f27-3894-4572-8825-246cd4487793)
+
+Luego , realizamos las pruebas de aceptacion para verificar que la accion del controlador responde correctamente dada las historias de usuario
+como punto de partida a tratar las especificaciones del cliente para que se encuentre satisfecho con el avance.
+
+```
+describe MoviesController do
+    describe 'searching TMDb' do
+      it 'calls the model method that performs TMDb search' do
+      end
+      it 'selects the Search Results template for rendering' do
+      end
+      it 'makes the TMDb search results available to that template' do
+      end
+    end
+end
+
+``` 
