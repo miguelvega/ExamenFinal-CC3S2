@@ -69,5 +69,11 @@ Cargamos las semillas en la base de datos con el comando y ejecutamos el servido
 
 ![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
 
+Ampliaremos RottenPotatoes con un formulario que permita al usuario buscar en The Open Movie Database (TMDb) una película para agregar a RottenPotatoes.
 
+Agregamos las lineas de codigo faltantes en el archivo.Primero los parámetros del formulario con los que se debe enviar y segundo un botón que nos lleva de regreso a la página de inicio.
 
+![Captura de pantalla de 2023-12-13 09-40-39](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/06b7b00a-b162-4b15-8703-855568047cc9)
+
+Cremos la funcion search_tmdb que sera nuestra acción del controlador que manejará el envío del formulario dada en la vista anterior..
+![Captura de pantalla de 2023-12-13 09-42-15](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/c81a0f27-3894-4572-8825-246cd4487793)
