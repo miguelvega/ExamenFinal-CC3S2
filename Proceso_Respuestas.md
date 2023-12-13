@@ -95,3 +95,7 @@ end
 
 ``` 
 Ahora podemos continuar escribiendo el código de prueba en movies_controller_spec.rb y posteriormente implementar el código en el controlador movies_controller.rb para satisfacer las especificaciones. Recoredando seguir el ciclo RGR de TDD.
+
+
+![Captura de pantalla de 2023-12-13 10-08-52](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/7189e0f0-21ad-4000-bbeb-68122607056d)
+![Captura de pantalla de 2023-12-13 10-08-52](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/7189e0f0-21ad-4000-bbeb-68122607056d)
