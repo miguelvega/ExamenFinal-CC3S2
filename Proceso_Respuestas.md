@@ -94,3 +94,4 @@ describe MoviesController do
 end
 
 ``` 
+Ahora podemos continuar escribiendo el código de prueba en movies_controller_spec.rb y posteriormente implementar el código en el controlador movies_controller.rb para satisfacer las especificaciones. Recoredando seguir el ciclo RGR de TDD.
