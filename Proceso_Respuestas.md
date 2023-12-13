@@ -43,9 +43,6 @@ group :test do
 end
 
 ```
-![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
-
-![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
 
 Ejecutamos bundle install nuevamene
 
@@ -71,5 +68,6 @@ Cargamos las semillas en la base de datos con el comando y ejecutamos el servido
 
 
 ![Captura de pantalla de 2023-12-13 09-13-26](https://github.com/miguelvega/ExamenFinal-CC3S2/assets/124398378/89e34d05-2c8e-46e2-80a4-81e530912a53)
+
 
 
