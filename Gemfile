@@ -9,6 +9,11 @@ gem 'uglifier', '>= 2.7.1'
 
 gem 'jquery-rails'
 
+gem 'faraday'  
+group :test do
+  gem 'rails-controller-testing'
+  gem 'guard-rspec'                 
+end
 
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do

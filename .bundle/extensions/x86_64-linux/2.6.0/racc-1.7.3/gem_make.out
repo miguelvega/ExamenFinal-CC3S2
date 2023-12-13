@@ -1,0 +1,15 @@
+current directory: /home/miguelubuntu/Escritorio/ExFinal_CC3S2/ExamenFinal-CC3S2/Actividad-EF/.bundle/gems/racc-1.7.3/ext/racc/cparse
+/home/miguelubuntu/.rbenv/versions/2.6.6/bin/ruby -I /home/miguelubuntu/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20231213-28080-7krqqm.rb extconf.rb
+creating Makefile
+
+current directory: /home/miguelubuntu/Escritorio/ExFinal_CC3S2/ExamenFinal-CC3S2/Actividad-EF/.bundle/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/miguelubuntu/Escritorio/ExFinal_CC3S2/ExamenFinal-CC3S2/Actividad-EF/.bundle/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/miguelubuntu/Escritorio/ExFinal_CC3S2/ExamenFinal-CC3S2/Actividad-EF/.bundle/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231213-28080-8vt8c8/racc
